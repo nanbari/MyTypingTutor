@@ -82,7 +82,7 @@ class MySoftware:
                 Data.database.commit()
                 mes = "Your accout has been successfully created"
 
-        self.message = Label(window, text=mes, font=("Times New Roman",10,'bold'), fg='green')
+        self.message = Label(window, text=mes, font=("Times New Roman",10,'bold'), fg='black')
         self.message.grid(row= 1)        
          
         return None
